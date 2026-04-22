@@ -4,6 +4,10 @@ import TimelineItem, {type TimelineItemProps} from "../../molecules/TimelineItem
 
 const timelineData: TimelineItemProps[] = [
     {
+        title: <div><h1>DKV (for Brainsquare)</h1><h2>2024 - Today</h2></div>,
+        description: "Front End Developer React & ASP.Net"
+    },
+    {
         title: <div><h1>Brainsquare</h1><h2>2022 - Today</h2></div>,
         description: ".Net Software Developer"
     },

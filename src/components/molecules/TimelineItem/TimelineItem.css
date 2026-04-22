@@ -34,7 +34,7 @@
     border-radius: 8px;
     border-left: 3px solid rgba(255, 255, 255, 0.3);
     opacity: 0;
-    width: 300px;
+    width: 350px;
 }
 
 .Timeline__item--left .Timeline__content {
@@ -62,7 +62,7 @@
     color: rgba(255, 255, 255, 0.8);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .Timeline__line {
         left: 16px;
     }

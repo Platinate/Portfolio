@@ -6,7 +6,7 @@
 }
 
 /* Mobile (iPhone 13 and smaller) */
-@media (max-width: 390px) {
+@media (max-width: 640px) {
   .Main {
     width: 100%;
   }
@@ -15,7 +15,7 @@
 /* Tablets and larger screens */
 @media (min-width: 391px) {
   .Main {
-    width: 80%;
+    width: 90%;
     max-width: 1400px;
   }
 }
