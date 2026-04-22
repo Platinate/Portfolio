@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import './Header.css';
 import { Link, useLocation } from "react-router";
 
-const updateHighlightPosition = (link: HTMLElement | null, highlight: HTMLDivElement | null, container: HTMLElement | null) => {
+const updateHighlightPosition = (link: HTMLElement | null | undefined, highlight: HTMLDivElement | null, container: HTMLElement | null) => {
     if (highlight && link && container) {
         const linkRect = link.getBoundingClientRect();
         const containerRect = container.getBoundingClientRect();
