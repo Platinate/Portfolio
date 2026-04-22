@@ -1,0 +1,27 @@
+.Timeline {
+    position: relative;
+    padding: 40px 0;
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.Timeline__line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: white;
+    transform: translateX(-50%);
+}
+
+.Timeline__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    gap: 0;
+    padding: 0;
+}
+

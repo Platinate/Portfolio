@@ -1,0 +1,83 @@
+.ProjectCard {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    animation-delay: var(--delay);
+}
+
+.ProjectCard__badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: #f59e0b;
+    color: #1a1a1a;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 20px;
+    z-index: 1;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.ProjectCard__picture {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background-color: #2a2a2a;
+}
+
+.ProjectCard__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.ProjectCard__image-placeholder {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #2a2a2a 0%, #3a3a3a 100%);
+}
+
+.ProjectCard__body {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 8px;
+}
+
+.ProjectCard__title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Audiowide', cursive;
+    color: #111;
+}
+
+.ProjectCard__description {
+    font-size: 0.9rem;
+    color: #444;
+    font-family: cursive;
+    flex: 1;
+    line-height: 1.5;
+}
+
+.ProjectCard__link {
+    display: inline-block;
+    margin-top: 4px;
+    color: #3313d2;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.ProjectCard__link:hover {
+    color: #1340d2;
+}

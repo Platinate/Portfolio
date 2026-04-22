@@ -1,0 +1,23 @@
+.Projects {
+    padding: 24px 0;
+}
+
+.Projects__grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr;
+}
+
+/* Tablet */
+@media (min-width: 391px) {
+    .Projects__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop */
+@media (min-width: 901px) {
+    .Projects__grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

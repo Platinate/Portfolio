@@ -1,0 +1,21 @@
+.Main {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 16px 0 0 0;
+}
+
+/* Mobile (iPhone 13 and smaller) */
+@media (max-width: 390px) {
+  .Main {
+    width: 100%;
+  }
+}
+
+/* Tablets and larger screens */
+@media (min-width: 391px) {
+  .Main {
+    width: 80%;
+    max-width: 1400px;
+  }
+}

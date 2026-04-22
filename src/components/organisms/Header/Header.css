@@ -1,0 +1,71 @@
+.Header {
+    display: flex;
+    justify-content: flex-end;
+    min-height: 40px;
+    padding: 16px 0;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Mobile (iPhone 13 and smaller) */
+@media (max-width: 390px) {
+    .Header {
+        width: 100%;
+    }
+}
+
+/* Tablets and larger screens */
+@media (min-width: 391px) {
+    .Header {
+        width: 80%;
+        max-width: 1400px;
+    }
+}
+
+.Header .Header__container {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.Header .Header__container .Header__highlight {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border-radius: 45px;
+    z-index: 0;
+    transition: width 0.3s ease, left 0.3s ease;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.Header .Header__container .Header__link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 4px;
+    width: 150px;
+    min-width: 150px;
+    flex: 0 0 150px;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+    transition: color 0.3s ease;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header .Header__container .Header__link--active {
+    color: black;
+}
