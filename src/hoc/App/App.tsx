@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom'
 import './App.css'
 import Home from '../../components/pages/Home/Home'
 import Contact from '../../components/pages/Contact'
@@ -8,7 +8,7 @@ import Main from '../Main/Main'
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="App">
         <Header />
         <Main>
@@ -19,7 +19,7 @@ function App() {
           </Routes>
         </Main>
       </div>
-    </Router>
+    </BrowserRouter>
   )
 }
 
