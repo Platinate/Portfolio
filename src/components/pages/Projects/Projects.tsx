@@ -14,8 +14,8 @@ const projects: Project[] = [
     {
         title: "Dice & Friends",
         description: "A web applications to allow multiples persons to roll dice and share the results in real time.",
-        link: "https://github.com",
-        inProgress: true,
+        link: "https://dice.digital3d.com/",
+        inProgress: false,
     },
     {
         title: "Pet Care",
