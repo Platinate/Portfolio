@@ -72,12 +72,12 @@ const techs: TechTag[] = [
 const networks: NetworkLink[] = [
     {
         icon: `${DEVICON}/github/github-original.svg`,
-        url: "https://github.com",
+        url: "https://github.com/Platinate",
         text: "GitHub",
     },
     {
         icon: `${DEVICON}/linkedin/linkedin-original.svg`,
-        url: "https://linkedin.com",
+        url: "https://www.linkedin.com/in/nathan-dolinski-19a28a16a/",
         text: "LinkedIn",
     },
 ];
